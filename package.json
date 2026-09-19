@@ -1,0 +1,15 @@
+{
+  "name": "first-moves-serveur",
+  "version": "1.0.0",
+  "description": "Serveur de jeu en ligne pour First moves (matchmaking, invitations, relais des coups)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
